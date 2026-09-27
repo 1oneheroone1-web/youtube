@@ -171,15 +171,21 @@ ul {
 
 .watch-card {
     display: grid;
-    grid-template-columns: 220px 1fr;
+    grid-template-columns: minmax(220px, 320px) 1fr;
     gap: 14px;
 }
 
-.watch-card img {
+.watch-card img,
+.watch-player {
     width: 100%;
     border: 6px solid white;
     outline: 1px solid #999;
     background: #ddd;
+}
+
+.watch-player {
+    max-height: 560px;
+    background: #000;
 }
 
 .page-form label {
@@ -264,6 +270,8 @@ ul {
     height: 9.37rem;
     border: 6px white solid;   
     margin: 10px 0;
+    object-fit: cover;
+    background: #ddd;
 }
 
 .item {
