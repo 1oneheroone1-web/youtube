@@ -14,17 +14,17 @@
 <body>
     <header>
         <ul class="header-list">
-            <li><a href="#home" data-route="home">Home</a></li>|
-            <li><a href="#my-videos" data-route="my-videos">My Videos</a></li>|
-            <li><a href="#favorites" data-route="favorites">My Favorites</a></li>|
-            <li><a href="#messages" data-route="messages">My Messages</a></li>|
-            <li><a href="#profile" data-route="profile">My Profile</a></li>
+            <li><a href="index.html">Home</a></li>|
+            <li><a href="my-videos.html">My Videos</a></li>|
+            <li><a href="favorites.html">My Favorites</a></li>|
+            <li><a href="messages.html">My Messages</a></li>|
+            <li><a href="profile.html">My Profile</a></li>
         </ul>
         <nav>
             <ul class="navbar">
-                <li><a href="#signup" data-route="signup">Sign Up</a></li>|
-                <li><a href="#login" data-route="login">Log In</a></li>|
-                <li><a href="#help" data-route="help">Help</a></li>
+                <li><a href="signup.html">Sign Up</a></li>|
+                <li><a href="login.html">Log In</a></li>|
+                <li><a href="help.html">Help</a></li>
             </ul>
         </nav>
     </header>
@@ -32,173 +32,96 @@
         <article class="logo">
             <img class="yt-logo" src="./assets/images/YouTube-Logo.wine.svg">
             <p>Your Digital Video Repository</p>
-            <input class="searchbar" id="search-input" type="search" value="campus">
-            <button class="searchbutton" id="search-button" type="button">Search Videos</button>
+            <form class="search-form" action="search.html" method="get">
+                <input class="searchbar" name="q" type="search" value="campus">
+                <button class="searchbutton" type="submit">Search Videos</button>
+            </form>
         </article>
         <article class="video-links">
-            <a class="uploadtext" href="#upload" data-route="upload">Upload Your Videos</a>
+            <a class="uploadtext" href="upload.html">Upload Your Videos</a>
             <p>
-                <a href="#">nansheng</a> :
-                <a href="#">azlan</a> :
-                <a href="#">weredband</a> :
-                <a href="#">ny</a> :
-                <a href="#">superbike</a> :
-                <a href="#">japan</a> :
-                <a href="#">sinceretheory</a> :
-                <a href="#">jozef</a> :
-                <a href="#">party</a> :
-                <a href="#">amazon</a> :
-                <a href="#">board</a> :
-                <a href="#">skate</a> :
-                <a href="#">buckley</a> :
-                <a href="#">shubs</a> :
-                <a href="#">falls</a> :
-                <a href="#">de</a> :
-                <a href="#">stockshot</a> :
-                <a href="#">cubbyhole</a> :
-                <a href="#">burnout</a> :
-                <a href="#">satellite</a> :
-                <a href="#">poughkeepsie</a> :
-                <a href="#">cruise</a> :
-                <a href="#">heritage</a> :
-                <a href="#">orgel</a> :
-                <a href="#">chin</a> :
-                <a href="#">themed</a> :
-                <a href="#">mill</a> :
-                <a href="#">music</a> :
-                <a href="#">live</a> :
-                <a href="#">to</a> :
-                <a href="#">farmer</a> :
-                <a href="#">mtv</a> :
-                <a href="#">puenbrouck</a> :
-                <a href="#">joey</a> :
-                <a href="#">made</a> :
-                <a href="#">board</a> :
-                <a href="#">skate</a> :
-                <a href="#">buckley</a> :
-                <a href="#">shubs</a> :
-                <a href="#">falls</a> :
-                <a href="#">de</a> :
-                <a href="#">stockshot</a> :
-                <a href="#">cubbyhole</a> :
-                <a href="#">burnout</a> :
-                <a href="#">satellite</a> :
-                <a href="#">poughkeepsie</a> :
-                <a href="#">cruise</a> :
-                <a href="#">heritage</a> :
-                <a href="#">orgel</a> :
-                <a href="#">chin</a> :
-                <a href="#">themed</a> :
-                <a href="#">mill</a> :
-                <a href="#">music</a> :
-                <a href="#">live</a> :
-                <a href="#">to</a> :
-                <a href="#">farmer</a> :
-                <a href="#">mtv</a> :
-                <a href="#">puenbrouck</a> :
-                <a href="#">joey</a> :
-                <a href="#">made</a> :
-                <a href="#">board</a> :
-                <a href="#">skate</a> :
-                <a href="#">buckley</a> :
-                <a href="#">shubs</a> :
-                <a href="#">falls</a> :
-                <a href="#">de</a> :
-                <a href="#">stockshot</a> :
-                <a href="#">cubbyhole</a> :
-                <a href="#">burnout</a> :
-                <a href="#">satellite</a> :
-                <a href="#">poughkeepsie</a> :
-                <a href="#">cruise</a> :
-                <a href="#">heritage</a> :
-                <a href="#">orgel</a> :
-                <a href="#">chin</a> :
-                <a href="#">themed</a> :
-                <a href="#">mill</a> :
-                <a href="#">music</a> :
-                <a href="#">live</a> :
-                <a href="#">to</a> :
-                <a href="#">farmer</a> :
-                <a href="#">mtv</a> :
-                <a href="#">puenbrouck</a> :
-                <a href="#">joey</a> :
-                <a href="#">made</a> :
-                <a href="#">this</a> :
-                <a href="#">let</a> :
-                <a href="#">goooo</a> :
-                <a href="#">ghana</a> :
-                <a href="#">rocks</a> :
-                <a href="#">yasss</a> :
-                <a href="#">dollar</a> :
-                <a href="#">rate</a> :
-                <a href="#">pounds</a> :
-                <a href="#">euros</a> :
-                <a href="#">2005</a> :
+                <a href="search.html?q=nansheng">nansheng</a> :
+                <a href="search.html?q=azlan">azlan</a> :
+                <a href="search.html?q=weredband">weredband</a> :
+                <a href="search.html?q=ny">ny</a> :
+                <a href="search.html?q=superbike">superbike</a> :
+                <a href="search.html?q=japan">japan</a> :
+                <a href="search.html?q=sinceretheory">sinceretheory</a> :
+                <a href="search.html?q=jozef">jozef</a> :
+                <a href="search.html?q=party">party</a> :
+                <a href="search.html?q=amazon">amazon</a> :
+                <a href="search.html?q=board">board</a> :
+                <a href="search.html?q=skate">skate</a> :
+                <a href="search.html?q=buckley">buckley</a> :
+                <a href="search.html?q=music">music</a> :
+                <a href="search.html?q=live">live</a> :
+                <a href="search.html?q=campus">campus</a> :
+                <a href="search.html?q=library">library</a> :
+                <a href="search.html?q=science">science</a> :
+                <a href="search.html?q=2005">2005</a> :
             </p>
-            <a class="see-more" href="#tags" data-route="tags">See More Tags</a>
+            <a class="see-more" href="tags.html">See More Tags</a>
         </article>
     </main>
     <aside class="featured-videos">
         <div class="featured-header">
             <h3>Featured Videos</h3>
-            <h3><a href="#browse" data-route="browse">>>> Watch More Videos</a></h3>
+            <h3><a href="browse.html">>>> Watch More Videos</a></h3>
         </div>
 
         <div class="thumbnails">
             <div class="item">
                 <img src="./assets/images/campus-tour.svg">
-                <h2><a href="#watch-campus-tour" data-video="campus-tour">Campus Tour</a></h2>
+                <h2><a href="watch.html">Campus Tour</a></h2>
                 <p>Added: June 15, 2005</p>
-                <p>by <a href="#channel-studentlife" data-channel="studentlife">studentlife</a></p>
+                <p>by <a href="channel.html">studentlife</a></p>
                 <p>Views: 81 | Comments: 1</p>
             </div>
 
             <div class="item">
                 <img src="./assets/images/computer-lab.svg">
-                <h2><a href="#watch-computer-lab" data-video="computer-lab">Computer Lab Demo</a></h2>
+                <h2><a href="watch.html">Computer Lab Demo</a></h2>
                 <p>Added: May 3, 2005</p>
-                <p>by <a href="#channel-techclass" data-channel="techclass">techclass</a></p>
+                <p>by <a href="channel.html">techclass</a></p>
                 <p>Views: 82 | Comments: 0</p>
             </div>
 
             <div class="item">
                 <img src="./assets/images/study-notes.svg">
-                <h2><a href="#watch-study-tips" data-video="study-tips">Study Tips</a></h2>
+                <h2><a href="watch.html">Study Tips</a></h2>
                 <p>Added: June 19, 2005</p>
-                <p>by <a href="#channel-notebook" data-channel="notebook">notebook</a></p>
+                <p>by <a href="channel.html">notebook</a></p>
                 <p>Views: 46 | Comments: 0</p>            
             </div>
 
             <div class="item">
                 <img src="./assets/images/library-walkthrough.svg">
-                <h2><a href="#watch-library-walkthrough" data-video="library-walkthrough">Library Walkthrough</a></h2>
+                <h2><a href="watch.html">Library Walkthrough</a></h2>
                 <p>Added: June 21, 2005</p>
-                <p>by <a href="#channel-campusmedia" data-channel="campusmedia">campusmedia</a></p>
+                <p>by <a href="channel.html">campusmedia</a></p>
                 <p>Views: 27 | Comments: 0</p>
             </div>
 
             <div class="item">
                 <img src="./assets/images/science-fair.svg">
-                <h2><a href="#watch-science-fair" data-video="science-fair">Science Fair</a></h2>
+                <h2><a href="watch.html">Science Fair</a></h2>
                 <p>Added: June 28, 2005</p>
-                <p>by <a href="#channel-projectclub" data-channel="projectclub">projectclub</a></p>
+                <p>by <a href="channel.html">projectclub</a></p>
                 <p>Views: 8 | Comments: 0</p>
             </div>
         </div>
     </aside>
-    <section class="mock-page" id="mock-page" aria-live="polite" hidden></section>
     <footer style="text-align: center;">    
       <div class="footer-links">
         <ul>
-            <li><a href="#about" data-route="about">About Us</a></li>|
-            <li><a href="#contact" data-route="contact">Contact Us</a></li>|
-            <li><a href="#terms" data-route="terms">Terms of Use</a></li>|
-            <li><a href="#privacy" data-route="privacy">Privacy Policy</a></li>|
+            <li><a href="about.html">About Us</a></li>|
+            <li><a href="contact.html">Contact Us</a></li>|
+            <li><a href="terms.html">Terms of Use</a></li>|
+            <li><a href="privacy.html">Privacy Policy</a></li>|
             <p>Made by Adi &bull; 1one.hero.one1@gmail.com</p>
-            <button id="rss-button" type="button">RSS</button>
+            <a class="rss-link" href="rss.html">RSS</a>
         </ul>
       </div>
     </footer>
-    <script src="./assets/js/app.js"></script>
 </body>
 </html>
