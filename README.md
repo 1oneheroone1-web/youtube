@@ -31,6 +31,7 @@ The home page links to four playable demo videos:
 | Expression Practice | `watch-expression.html` | Education |
 | Character Scale Study | `watch-character.html` | Education |
 | YouTube Clip | `watch-outdoor.html` | Education |
+| Science Fair | `watch-science.html` | Education |
 
 Most demo videos are stored locally in `assets/videos/`, with thumbnail posters in `assets/images/`. The final YouTube Clip page embeds the first 30 seconds from YouTube instead of re-uploading the source video.
 
@@ -41,6 +42,7 @@ Most demo videos are stored locally in `assets/videos/`, with thumbnail posters 
 - `watch-expression.html` - second video watch page
 - `watch-character.html` - third video watch page
 - `watch-outdoor.html` - fourth video watch page
+- `watch-science.html` - science fair watch page with the car observation video
 - `profile.html` - filled mock user profile
 - `login.html` and `signup.html` - mock auth pages that lead to the profile
 - `my-videos.html`, `favorites.html`, `messages.html`, `upload.html` - account pages
