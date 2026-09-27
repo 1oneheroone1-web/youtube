@@ -30,9 +30,9 @@ The home page links to four playable demo videos:
 | Room Cleanup Safety | `watch.html` | Education |
 | Expression Practice | `watch-expression.html` | Education |
 | Character Scale Study | `watch-character.html` | Education |
-| Outdoor Observation | `watch-outdoor.html` | Education |
+| YouTube Clip | `watch-outdoor.html` | Education |
 
-All videos are stored locally in `assets/videos/`, with thumbnail posters in `assets/images/`.
+Most demo videos are stored locally in `assets/videos/`, with thumbnail posters in `assets/images/`. The final YouTube Clip page embeds the first 30 seconds from YouTube instead of re-uploading the source video.
 
 ## Pages
 

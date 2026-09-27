@@ -176,16 +176,23 @@ ul {
 }
 
 .watch-card img,
-.watch-player {
+.watch-player,
+.watch-embed {
     width: 100%;
     border: 6px solid white;
     outline: 1px solid #999;
     background: #ddd;
 }
 
-.watch-player {
+.watch-player,
+.watch-embed {
     max-height: 560px;
     background: #000;
+}
+
+.watch-embed {
+    aspect-ratio: 16 / 9;
+    height: auto;
 }
 
 .page-form label {
