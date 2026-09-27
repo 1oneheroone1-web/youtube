@@ -133,7 +133,7 @@ function renderRoute(route) {
         <label>Name</label><input value="Adi">
         <label>Email</label><input value="1one.hero.one1@gmail.com">
         <label>Username</label><input value="onehero2005">
-        <button type="button">Create Mock Account</button>
+        <button type="button" data-route="profile">Create Mock Account</button>
       </form>
     `),
     login: () => show("Log In", "Mock login state for a prepared demo account.", `
