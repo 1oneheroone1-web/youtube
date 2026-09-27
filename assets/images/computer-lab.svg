@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="150" viewBox="0 0 200 150" role="img" aria-label="Computer lab thumbnail">
+  <rect width="200" height="150" fill="#eef1f5"/>
+  <rect x="24" y="32" width="152" height="70" rx="4" fill="#2f3b4f"/>
+  <rect x="34" y="42" width="132" height="50" fill="#8fd3ff"/>
+  <rect x="48" y="54" width="58" height="8" fill="#ffffff" opacity=".85"/>
+  <rect x="48" y="70" width="90" height="7" fill="#ffffff" opacity=".65"/>
+  <rect x="86" y="102" width="28" height="16" fill="#6f7988"/>
+  <rect x="62" y="118" width="76" height="10" rx="2" fill="#3d4655"/>
+  <circle cx="154" cy="55" r="7" fill="#ff6b35"/>
+  <text x="100" y="142" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#27384d">Computer Lab</text>
+</svg>

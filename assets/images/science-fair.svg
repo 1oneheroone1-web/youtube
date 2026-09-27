@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="150" viewBox="0 0 200 150" role="img" aria-label="Science fair thumbnail">
+  <rect width="200" height="150" fill="#edf7f4"/>
+  <rect x="28" y="40" width="144" height="82" rx="6" fill="#ffffff" stroke="#6a8b8b" stroke-width="2"/>
+  <circle cx="68" cy="78" r="20" fill="#9fd3c7"/>
+  <circle cx="63" cy="72" r="5" fill="#ffffff"/>
+  <circle cx="75" cy="84" r="4" fill="#ffffff"/>
+  <path d="M120 56v28l-18 30h54l-18-30V56z" fill="#f7c66a" stroke="#846226" stroke-width="2"/>
+  <rect x="113" y="50" width="32" height="8" rx="3" fill="#846226"/>
+  <path d="M48 108h104" stroke="#c7d7d4" stroke-width="4"/>
+  <text x="100" y="142" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#285756">Science Fair</text>
+</svg>
